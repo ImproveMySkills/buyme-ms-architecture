@@ -1,0 +1,14 @@
+# =======================================================================
+## Spring
+# =======================================================================
+spring:
+  application:
+    name: discovery-service
+
+# Don't register server itself as a client
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false # Do not register itself in the service registry
+server:
+  port: 8761

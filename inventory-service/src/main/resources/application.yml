@@ -1,0 +1,21 @@
+# =======================================================================
+## Spring
+# =======================================================================
+spring:
+  application:
+    name: inventory-service
+  cloud:
+    config:
+      enabled: false
+    discovery:
+      enabled: true
+    gateway:
+      enabled: true
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:inventory-db
+
+server:
+  port: 8082
