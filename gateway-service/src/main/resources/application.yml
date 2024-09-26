@@ -18,7 +18,14 @@ spring:
         - id: r2
           uri: http://localhost:8082/
           predicates:
-            - Path=/products/**
+            - Path=/api/products/**
+            #- Method=GET
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
 
 server:
   port: 8080

@@ -17,5 +17,12 @@ spring:
   datasource:
     url: jdbc:h2:mem:inventory-db
 
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
 server:
   port: 8082
