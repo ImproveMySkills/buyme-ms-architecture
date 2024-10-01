@@ -5,9 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5b8b513-0a71-4758-8386-be49965e677c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/improvemyskills/gatewayservice/configuration/DiscoveryClientRouteConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/src/main/java/com/improvemyskills/configservice/ConfigServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/improvemyskills/customerservice/web/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/resources/db/migration/V1__create_customers_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/db/migration/V1__create_products_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/improvemyskills/orderservice/OrderServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/improvemyskills/orderservice/clients/CustomerRestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/improvemyskills/orderservice/models/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/improvemyskills/orderservice/web/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/improvemyskills/customerservice/CustomerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/improvemyskills/customerservice/CustomerServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/improvemyskills/customerservice/models/CustomerProjection.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/improvemyskills/customerservice/models/CustomerProjection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/improvemyskills/inventoryservice/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/improvemyskills/inventoryservice/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +71,42 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/ahabouba/IdeaProjects/config-repo",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.customer-service">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ahabouba\IdeaProjects\buyme-ms-architecture\customer-service\src\main\resources\db\migration" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.gateway-service">
+    <configuration name="ConfigServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.improvemyskills.configservice.ConfigServiceApplication" />
+      <module name="config-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.improvemyskills.configservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.improvemyskills.orderservice.OrderServiceApplication" />
+      <module name="order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.improvemyskills.orderservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="customer-service" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.improvemyskills.customerservice.CustomerServiceApplication" />
       <module name="customer-service" />
@@ -93,7 +146,15 @@
       <item itemvalue="Application.discovery-service" />
       <item itemvalue="Application.gateway-service" />
       <item itemvalue="Application.customer-service" />
+      <item itemvalue="Application.ConfigServiceApplication" />
+      <item itemvalue="Application.OrderServiceApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConfigServiceApplication" />
+        <item itemvalue="Application.OrderServiceApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

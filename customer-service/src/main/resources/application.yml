@@ -6,9 +6,13 @@ spring:
     name: customer-service
   cloud:
     config:
-      enabled: false
+      enabled: true
     discovery:
       enabled: true
+    gateway:
+      enabled: true
+  config:
+    import: optional:configserver:http://localhost:9999
   h2:
       console:
         enabled: true
@@ -25,3 +29,6 @@ eureka:
 
 server:
   port: 8081
+
+flyway:
+  locations: db/migration

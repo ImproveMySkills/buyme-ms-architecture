@@ -6,16 +6,19 @@ spring:
     name: inventory-service
   cloud:
     config:
-      enabled: false
+      enabled: true
     discovery:
       enabled: true
     gateway:
       enabled: true
+  config:
+    import: optional:configserver:http://localhost:9999
   h2:
     console:
       enabled: true
   datasource:
     url: jdbc:h2:mem:inventory-db
+    username: inventory-service
 
 eureka:
   instance:
@@ -26,3 +29,6 @@ eureka:
 
 server:
   port: 8082
+
+flyway:
+  locations: db/migration
