@@ -9,8 +9,6 @@ spring:
       enabled: true
     discovery:
       enabled: true
-    gateway:
-      enabled: true
   config:
     import: optional:configserver:http://localhost:9999
   h2:
@@ -19,7 +17,9 @@ spring:
   datasource:
     url: jdbc:h2:mem:inventory-db
     username: inventory-service
-
+  jackson:
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
 eureka:
   instance:
     prefer-ip-address: true

@@ -3,11 +3,11 @@ package com.improvemyskills.customerservice.models;
 import com.improvemyskills.customerservice.entity.Customer;
 import org.springframework.data.rest.core.config.Projection;
 
-@Projection(types = {Customer.class}, name = "customer_projection")
-public interface CustomerProjection {
+@Projection(name = "customerProjection1", types = { Customer.class })
+interface CustomerProjection {
     Long getId();
-    String getFirstName();
-    String getLastName();
+    //String getFirstName();
+    //String getLastName();
     String getEmail();
 
 }

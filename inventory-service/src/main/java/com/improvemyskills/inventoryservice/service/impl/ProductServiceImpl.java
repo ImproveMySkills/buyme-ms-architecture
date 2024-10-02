@@ -18,8 +18,9 @@ public class ProductServiceImpl implements IProductService {
     private ProductRepository productRepository;
     private IProductMapper productMapper;
 
-    public ProductServiceImpl(ProductRepository productRepository) {
+    public ProductServiceImpl(ProductRepository productRepository, IProductMapper productMapper) {
         this.productRepository = productRepository;
+        this.productMapper = productMapper;
     }
 
     @Override

@@ -1,13 +1,13 @@
-package com.improvemyskills.inventoryservice.models;
+package com.improvemyskills.orderservice.models;
 
 import lombok.*;
 
 @Getter
 @Setter
-@Builder
-@AllArgsConstructor
 @NoArgsConstructor
-public class ProductDto {
+@AllArgsConstructor
+@Builder
+public class Product {
     private Long id;
     private String name;
     private Long categoryId;
