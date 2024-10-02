@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5b8b513-0a71-4758-8386-be49965e677c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/improvemyskills/orderservice/Repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/improvemyskills/orderservice/clients/ProductRestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/improvemyskills/orderservice/entity/OrderPurshase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/improvemyskills/orderservice/models/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/improvemyskills/orderservice/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/improvemyskills/orderservice/service/impl/OrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/improvemyskills/customerservice/models/CustomerProjection.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/improvemyskills/customerservice/models/CustomerProjection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/improvemyskills/inventoryservice/mappers/IProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/improvemyskills/inventoryservice/mappers/IProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/improvemyskills/inventoryservice/models/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/improvemyskills/inventoryservice/models/ProductDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/improvemyskills/inventoryservice/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/improvemyskills/inventoryservice/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/improvemyskills/orderservice/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/improvemyskills/orderservice/OrderServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/improvemyskills/orderservice/web/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/improvemyskills/orderservice/web/OrderController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +61,7 @@
       <recent name="C:\Users\ahabouba\IdeaProjects\buyme-ms-architecture\customer-service\src\main\resources\db\migration" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrderServiceApplication">
+  <component name="RunManager" selected="Application.gateway-service">
     <configuration name="ConfigServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.improvemyskills.configservice.ConfigServiceApplication" />
       <module name="config-service" />
