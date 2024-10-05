@@ -32,6 +32,11 @@ public class OrderController {
         return new ResponseEntity<>(customerRestClient.getAllCustomers(), HttpStatus.OK);
     }
 
+    @GetMapping("/customers/{id}")
+    public ResponseEntity<Customer> getCustomer(@PathVariable Long id) {
+        return new ResponseEntity<>(customerRestClient.getCustomerById(id), HttpStatus.OK);
+    }
+
     @GetMapping("/products")
     public ResponseEntity<Collection<Product>> getProductRestClient() {
         return productRestClient.getAll();
@@ -39,6 +44,9 @@ public class OrderController {
 
     @PostMapping("/orders")
     public ResponseEntity<OrderPurshase> placeAnOrder(@RequestBody OrderPurshase orderPurshase){
+        // TODO: Implementer la création d'une commande
+
+
         return null;
     }
 
@@ -49,7 +57,7 @@ public class OrderController {
         Collection<OrderPurshase> orders = orderService.getAllOrders().stream()
                 .forEach(orderPurshase -> {
                 });*/
-        return null;
+        return new ResponseEntity<>(orderService.getAllOrders(), HttpStatus.OK);
     }
 
 

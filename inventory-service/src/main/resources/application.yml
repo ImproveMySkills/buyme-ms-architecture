@@ -32,3 +32,10 @@ server:
 
 flyway:
   locations: db/migration
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
