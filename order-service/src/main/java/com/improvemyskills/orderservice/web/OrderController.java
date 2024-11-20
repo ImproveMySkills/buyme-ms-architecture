@@ -41,6 +41,10 @@ public class OrderController {
     public ResponseEntity<Collection<Product>> getProductRestClient() {
         return productRestClient.getAll();
     }
+ @GetMapping("/products/{id}")
+    public ResponseEntity<Product> getProductRestClientById(@PathVariable Long id) {
+        return productRestClient.getProduct(id);
+    }
 
     @PostMapping("/orders")
     public ResponseEntity<OrderPurshase> placeAnOrder(@RequestBody OrderPurshase orderPurshase){
