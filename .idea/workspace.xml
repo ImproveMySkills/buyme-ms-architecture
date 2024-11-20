@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5b8b513-0a71-4758-8386-be49965e677c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/improvemyskills/customerservice/security/JwtAuthConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/improvemyskills/customerservice/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/improvemyskills/inventoryservice/security/JwtAuthConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/improvemyskills/inventoryservice/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/improvemyskills/orderservice/interceptors/FeigInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/improvemyskills/orderservice/security/JwtAuthConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/improvemyskills/orderservice/security/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/improvemyskills/orderservice/web/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/improvemyskills/orderservice/web/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/improvemyskills/customerservice/web/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/improvemyskills/customerservice/web/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/improvemyskills/inventoryservice/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/improvemyskills/inventoryservice/controllers/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +49,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2mYwjRyVI5py1t4jvXLUtjfKPjs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -50,16 +63,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/ahabouba/IdeaProjects/config-repo",
+    "last_opened_file_path": "C:/Users/ahabouba/IdeaProjects/buyme-ms-architecture/order-service/src/main/java/com/improvemyskills/orderservice",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ahabouba\IdeaProjects\buyme-ms-architecture\order-service\src\main\java\com\improvemyskills\orderservice" />
+      <recent name="C:\Users\ahabouba\IdeaProjects\buyme-ms-architecture\inventory-service\src\main\java\com\improvemyskills\inventoryservice" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ahabouba\IdeaProjects\buyme-ms-architecture\customer-service\src\main\resources\db\migration" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrderServiceApplication">
+  <component name="RunManager" selected="Application.customer-service">
     <configuration name="ConfigServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.improvemyskills.configservice.ConfigServiceApplication" />
       <module name="config-service" />
@@ -130,8 +147,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OrderServiceApplication" />
         <item itemvalue="Application.ConfigServiceApplication" />
+        <item itemvalue="Application.OrderServiceApplication" />
       </list>
     </recent_temporary>
   </component>

@@ -17,6 +17,12 @@ spring:
   datasource:
     url: jdbc:h2:mem:inventory-db
     username: inventory-service
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:9090/realms/buyme-realm
+          jwk-set-uri: http://localhost:9090/realms/buyme-realm/protocol/openid-connect/certs
   jackson:
     serialization:
       FAIL_ON_EMPTY_BEANS: false
